@@ -1,0 +1,109 @@
+footer {
+  display: flex;
+  width: 100%;
+  margin-top: 5vw;
+  position: absolute;
+}
+
+.background-image {
+  background-image: url(images/palmen.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.content {
+  margin-top: 5%;
+}
+
+.titel-text {
+  color: #FC360D;
+  text-align: center;
+}
+
+#storyimage1 {
+  width: 30%;
+  background-color: #FC360D;
+  height: auto;
+  background-size: cover;
+}
+
+#storyimage2 {
+  width: 70%;
+  height: auto;
+  background-color: green;
+  background-size: cover;
+}
+
+.storyimages {
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  padding: 0 8px;
+  display: flex;
+  justify-content: space-around
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 0%;
+  padding-bottom: 20%;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+.content {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.person {
+  padding-bottom: 20%;
+}
+
+.baseh2 {
+  color: #FC360D;
+  font-size: 3em;
+}
+
+.textError {
+  color: red ;
+  display: none;
+}
+
+.navbar-inverse .navbar-brand {
+  display: flex;
+  align-items: baseline;
+  height: 8vw;
+}
+
+.nav {
+  font-size: 1.2vw;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.container-fluid {
+  display: flex;
+  align-items: center;
+}
